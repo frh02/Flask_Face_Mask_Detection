@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Face Mask Detection</h1>
+        <p class="lead">We scan any image and tell you if the person in the image is wearing a mask or not.</p>
+        <hr class="my-4">
+        <p>Just sign up, and get started by adding the URL the image or upload it locally that interests you. We'll do the rest!</p>
+        <p><a class="btn btn-primary btn-lg" href="{{ url_for('users.register_user') }}" role="button">Get started</a></p>
+    </div>
+{% endblock %}
